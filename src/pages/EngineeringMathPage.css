@@ -1,0 +1,89 @@
+/* EngineeringMathPage.css */
+.subject-wrapper {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7fb;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.progress-info {
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.topic-section {
+  margin-bottom: 20px;
+  border: 1px solid #dbe3ea;
+  border-radius: 12px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.topic-summary {
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #d0e6fa;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.subtopic-list {
+  list-style: none;
+  padding: 0 20px 20px 20px;
+  margin: 0;
+}
+
+.subtopic-item {
+  margin-bottom: 18px;
+  
+}
+
+.subtopic-item label {
+  font-size: 1rem;
+  color: #333;
+  display: block;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 40%; /* reduced from 56.25% */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+  width: 500px;
+  
+}
+
+
+.video-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border: none;
+}
+
+.revision-note {
+  background: #eef5ff;
+  padding: 10px;
+  border-left: 4px solid #4a90e2;
+  font-size: 0.95rem;
+  color: #2d3e50;
+  border-radius: 4px;
+}

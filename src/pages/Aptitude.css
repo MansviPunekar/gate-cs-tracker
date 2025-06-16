@@ -1,0 +1,66 @@
+.aptitude-wrapper {
+  background: #f5f8fa; /* light subtle background */
+  color: #222222;
+  padding: 40px 20px 80px 20px;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 40px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.aptitude-header {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #007960;
+  letter-spacing: 1.1px;
+}
+
+.aptitude-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.aptitude-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px 15px;
+  box-shadow: 0 4px 10px rgba(0, 121, 96, 0.15);
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.25s ease;
+  cursor: default;
+}
+
+.aptitude-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0, 121, 96, 0.3);
+}
+
+.pie-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.progress-text {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #007960;
+}
+
+.animation-section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}

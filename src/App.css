@@ -1,0 +1,10 @@
+.main-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: green;
+}
