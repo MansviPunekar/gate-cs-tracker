@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# GATE CS Tracker 🎯
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personalized GATE (Computer Science) preparation tracker built using **React** and **Firebase**. This app helps students efficiently manage their study routine, track topic-wise progress, and stay consistent with mock tests — all in one modern, dashboard-style interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Features
 
-### `npm start`
+- ✅ **Subject-Wise Progress Tracking**
+  - Visual pie charts for each subject based on subtopic completion
+  - Interactive checkboxes for each topic and subtopic
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ⏱️ **Study Session Timer**
+  - Start/Stop timer to track actual study time
+  - Time logs stored and visualized
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 📅 **LeetCode-Style Study Calendar**
+  - Highlights days with study sessions
+  - Hover to see how much time was spent each day
 
-### `npm test`
+- 🧪 **Mock Test Tracker**
+  - Mark completed tests
+  - See completion percentage, last test date, and next scheduled test
+  - Line graph for test score trends (Firebase integration ready)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🧠 **(Coming Soon)**: AI-based suggestions using OpenAI
+  - Weekly study goals based on progress
+  - Smart mock test recommendations
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend**: React + Tailwind CSS
+- **Backend**: Firebase Realtime Database, Firebase Auth
+- **Charts & UI**:
+  - `Recharts` for Pie and Line charts
+  - `lucide-react`, `shadcn/ui` for UI components
+- **Auth**: Firebase Email/Password
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the Repo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/MansviPunekar/gate-cs-tracker.git
+cd gate-cs-tracker
